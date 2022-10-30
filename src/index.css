@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav {
+  background: #424242
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  outline: none;
+}
+
+button:focus {
+  background: transparent;
+}
+
+textarea {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  outline: none;
+}
+
+#taskTitle {
+  padding-left: 15px;
+}
+.card {
+  max-width: 750px;
+  margin: 10px auto;
+}
+
+.card-done {
+  text-decoration: line-through;
+}
+
+.card-action {
+  text-align: center;
+}
+    
+.form-wrap {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid;
+  margin-top: 30px;
+  padding: 20px 20px 40px;
+}
+
+.btn-wrap {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  max-width: 750px;
+}
+
+.btn-line {
+  max-width: 150px;
+  margin: 0 15px;
+}
+
+.icon-edit {
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
